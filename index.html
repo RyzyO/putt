@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Golf Putting Game Scoring</title>
+	 <link rel="apple-touch-icon" href="favicon.png">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -22,8 +23,8 @@
             <p>Distance: <span id="hole-distance">3</span> feet</p>
         </div>
       <div id="score-input">
-            <p>Riley: <input type="numeric" id="player1-score" min="0" value="0"></p>
-            <p>Brendo: <input type="numeric" id="player2-score" min="0" value="0"></p>
+            <p>Riley: <input type="numeric" id="player1-score" min="0" value="0" inputmode="numeric"></p>
+            <p>Brendo: <input type="numeric" id="player2-score" min="0" value="0" inputmode="numeric"></p>
         </div>
       <div id="controls">
             <button onclick="nextHole()">Next Hole</button>
