@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+#hole-info{
+	 margin: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 15px;
+	
+	
+}
+#score-input {
+    margin-bottom: 20px;
+}
+#running-total-riley{
+	 margin: 5px;
+    padding: 10px 5px ;
+    background-color: #FF5454;
+    color: white;
+    border: none;
+    cursor: pointer;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 15px;
+	
+}#running-total-brendo{
+	 margin: 5px;
+    padding: 10px 20px;
+    background-color: #5A65FF;
+    color: white;
+    border: none;
+    cursor: pointer;
+	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 15px;
+	
+}
+#running-total-scores{
+	 margin: 5px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+	
+}
+
+#score-input p {
+    margin: 10px 0;
+}
+
+#controls button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#controls button:hover {
+    background-color: #45a049;
+}
+
+#total-scores {
+    margin: 20px auto;
+    width: 80%;
+}
+
+table {
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    
+    width: 100%;
+    bottom: 0;
+}
